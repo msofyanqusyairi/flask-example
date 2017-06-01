@@ -14,6 +14,7 @@ def staticfile(path):
 def index():
     title = "home"
     name = "tom"
+    # instansiasi class User
     user = User(name)
     return render_template('index.html', title = title, user = user)
 
